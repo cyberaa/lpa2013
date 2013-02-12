@@ -1,7 +1,7 @@
 /*
  *      A.c
  *      
- *      Copyright 2012 João Ferreira <joao@void>
+ *      Copyright 2013 João Ferreira <joao@void>
  */
 
 #include <stdio.h>
