@@ -1,6 +1,5 @@
 /*
  *      A.c
- *      
  *      Copyright 2013 João Ferreira <joao@void>
  */
 

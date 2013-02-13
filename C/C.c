@@ -1,6 +1,6 @@
 /*
- *      B.c
- *      Copyright 2012 João Ferreira <joao@void>
+ *      C.c
+ *      Copyright 2013 João Ferreira <joao@void>
  */
 
 
