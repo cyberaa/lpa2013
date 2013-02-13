@@ -20,6 +20,7 @@ void solve(int x, int y, int moves)
 	{
 		visited++;
 		table[x][y] = 1;
+		printf("%d %d\n", x-200, y-200);
 	}
 	
 	solve(x+2, y+1, moves-1);
