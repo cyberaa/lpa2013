@@ -1,0 +1,127 @@
+
+<!-- saved from url=(0072)http://mooshak.dei.uc.pt/~lpa/cgi-bin/execute/585095571626?description+F -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="./B - Portuguese Pavements - NO LOOPS_files/base.css" type="text/css">
+</head>
+<body>
+<center>
+<table cellpadding="20" width="100%">
+<tbody><tr>
+<td id="Base">
+<title>B - Portuguese Pavements - NO LOOPS </title>
+
+
+
+
+<h1 align="CENTER"> Problem B - Portuguese Pavements - NO LOOPS </h1>
+
+<hr>
+
+
+<b> <font color="red"> NOTE: THE CHALLENGE IS TO WRITE A CODE THAT DOES NOT CONTAIN ANY LOOP. </font></b><p>
+</p><h2> Problem</h2> 
+
+
+<img width="25%" src="./B - Portuguese Pavements - NO LOOPS_files/585095571626"><p></p><p>
+
+The company "Nova Calçada Portuguesa" designs contemporaneous
+portuguese pavements, with black and white stones, for large
+pedestrian areas by following a simple mathematical aesthetic principle. </p><p>
+
+The design of the pavement is based a squared boolean matrix, where
+each entry corresponds to a stone. If an entry in the matrix
+is <tt>false</tt>, then the corresponding stone is white, otherwise,
+is black. The matrices are build with two parameters, <i>N</i>
+and <i>R</i>. Given a non-negative integer <i>N</i>, the matrix has
+size <i>2<sup>N</sup></i>. For <i>N=0</i>, the matrix has only one
+entry with value <tt>false</tt>. 
+For <i>R=0</i>, a matrix for a given positive <i>N</i> is obtaining by aligning 
+4 copies of a matrix for <i>N-1</i>, and then negating the values in the lower 
+right matrix. <b>This rule changes for a positive <i>R</i>: the negation occurs in the lower 
+right matrix shifted <i>R</i> times in the counterclockwise direction.</b></p><p>
+
+The following figure illustrates how a matrix for <i>N=3</i>  (for <i>R=0</i>) can be
+obtained from another matrix for <i>N=2</i>, where
+<tt>1</tt> means <tt>true</tt> and <tt>0</tt> means <tt>false</tt>.
+
+</p><blockquote><pre>0000|0000
+0101|0101
+0011|0011
+0110|0110
+---------
+0000|1111
+0101|1010
+0011|1100
+0110|1001
+</pre></blockquote>
+
+The following shows for <i>R=6</i>:
+
+<blockquote><pre>1001|0110
+0011|1100
+0101|1010
+1111|0000
+---------
+0110|0110
+1100|1100
+1010|1010
+0000|0000
+</pre></blockquote>
+
+Clearly, the designers cannot do it by hand, so they decided to call
+you to make a program that computes such matrix for a given <i>N</i>
+and <i>R</i>.<p>
+
+</p><hr> <h2> Input</h2>
+
+Each line corresponds to a test case with the values of <i>N</i> and <i>R</i>.<p>
+
+
+</p><hr>
+<h2> Output</h2> 
+
+Print the resulting matrix where <tt>1</tt> corresponds to <tt>true</tt> and
+<tt>0</tt> corresponds to <tt>false</tt>.<p>
+
+Note: Code with hard-coded matrices for several values of <i>N</i> will not be considered as accepted. </p><p>
+
+</p><p>
+
+
+</p><hr>
+<h2> Constraints</h2> 
+
+1 &#8804; <i>N</i> &#8804; 10 and 0 &#8804;<i>R</i> &#8804; 1000.
+
+<p>
+
+</p><hr>
+<h2> Example</h2>
+
+<b>Input</b>:<p>
+</p><blockquote><pre>2 0
+3 6
+</pre></blockquote>
+<b>Output</b>:<p>
+</p><blockquote><pre>0000
+0101
+0011
+0110
+10010110
+00111100
+01011010
+11110000
+01100110
+11001100
+10101010
+00000000
+</pre></blockquote>
+<hr>
+
+</td>
+</tr>
+</tbody></table>
+</center>
+
+
+</body></html>
